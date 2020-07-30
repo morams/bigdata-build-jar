@@ -1,0 +1,15 @@
+{
+  "name" : "CloudseerStreaming",
+  "kafkaBrokers": "b-4.msk-cluster.ylg83c.c3.kafka.us-east-1.amazonaws.com:9092,b-1.msk-cluster.ylg83c.c3.kafka.us-east-1.amazonaws.com:9092,b-6.msk-cluster.ylg83c.c3.kafka.us-east-1.amazonaws.com:9092",
+  "logLevel": "WARN",
+  "pSql" : {
+    "dbUrl": "jdbc:postgresql://cloudseer-data-rds-dev-cluster.cluster-cmnvuxhrrcdg.us-east-1.rds.amazonaws.com:3306/ao_aw_cloudseer3",
+    "dbUser":  "postgres",
+    "dbPassword": "vjedqz9D6kd",
+    "dbDriver" : "org.postgresql.Driver",
+    "dbWriteMode" : "append"
+  }
+}
+
+
+
